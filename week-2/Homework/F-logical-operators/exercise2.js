@@ -4,10 +4,46 @@
   This program calls some functions that are either missing or incomplete.
   Update the code so that you get the expected result.
 */
+const valor = 0
+function isNegative(valor) {
+  if (valor<0){
+    return true
+    }
+    else {
+      return false
+    }
+  }
 
-function isNegative() {}
+  function isBetween5and10(valor) {
+  if (valor >= 5 && valor <= 10) {
+    return true
+    }
+    else {
+      return false
+    }
+  }
+  let nombre = ""
 
-/* 
+function isShortName(nombre) {
+  if (nombre == "Daniel") {
+    return true
+  }
+    else {
+      return false
+    }
+  }
+function startsWithD(nombre) {
+  if (nombre.charAt(0) == "D") {
+    return true
+  }
+    else {
+      return false
+    } 
+  }
+
+
+
+  /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 
