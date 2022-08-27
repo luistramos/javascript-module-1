@@ -13,3 +13,16 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+let valor=[];
+
+function searchDay(valor){
+  for (let i=0; i<valor.length; i++) {
+    if (valor[i].startsWith("T"))
+    console.log(valor[i])
+  }
+}
+
+searchDay(daysOfWeek)
+
+

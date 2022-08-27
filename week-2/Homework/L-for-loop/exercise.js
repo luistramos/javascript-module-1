@@ -7,9 +7,19 @@
 */
 
 let n = 10;
+let numbers = ""
 
-function sumTillNum(num){
+function sumTillNum(num) {
+	for  (let i = 0; i<=num; i++) {
+		if (i < 10) {
+			numbers = numbers + i + " + ";
+		}
+		else {
+			numbers = numbers + i;
+		}		
+	}
 	//your code here
+	return numbers
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));

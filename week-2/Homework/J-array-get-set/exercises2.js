@@ -1,23 +1,22 @@
 /*
-  Array setters
-  -------------
-  WITHOUT changing the array literal declaration,
-  - assign the number 4 to the end of this array
-  - change the first value in the array to the number 1
-*/
+    Array setters
+    -------------
+    WITHOUT charging the array literal declaration,
+    - assign the number 4 to the end of this array
+    - change the first value in the array to the number 1
+*/    
+let numbers = [1,2,3]; // Don´t change this array literal declaration
 
-const casos = [ 1, 2, 3]; // Don't change this array literal declaration
+/*console.log(numbers[number.length-1])*/
 
-/*console.log(numbers[numbers.length-1])*/
+/*
+    DO NOT EDIT BELOW THIS LINE
+    --------------------------- */
+numbers.push(4);
+console.log(numbers);
 
-/* 
-  DO NOT EDIT BELOW THIS LINE
-  --------------------------- */
-  console.log(casos);
-  
-/*  
-  EXPECTED RESULT
-  ---------------
-  [1, 2, 3, 4]
-  */
- 
+/*
+    EXPECTED RESULT
+    ---------------
+    [1,2,3,4]
+    */
