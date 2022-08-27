@@ -7,9 +7,23 @@
 */
 
 let n = 10;
+let numbers = []
 
 function sumTillNum(num){
+	console.log(num)
+	while (num >= 0) {
+		/*return n-num;*/
+		/*return num*/
+		numbers.push(n-num)
+		console.log(num)
+		num --;
+	}
 	//your code here
 }
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+
+console.log("Sum from 0 to " + n + " is: " + sumTillNum(n) + numbers);
+
+
+
+

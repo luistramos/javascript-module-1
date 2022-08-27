@@ -13,9 +13,18 @@ function negativeOrPositive(number) {
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-var number1 = 5;
-var number2 = -1;
-var number3 = 0;
+const number1 = 5;
+const number2 = -1;
+const number3 = 0;
+
+function negativeOrPositive(number) {
+  if (number >= 0) {
+    return "positive"
+  }
+  else {
+    return "negative"
+  }
+}
 
 console.log(number1 + " is " + negativeOrPositive(number1));
 console.log(number2 + " is " + negativeOrPositive(number2));

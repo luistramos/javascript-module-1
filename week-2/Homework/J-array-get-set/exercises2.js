@@ -6,15 +6,18 @@
   - change the first value in the array to the number 1
 */
 
-var numbers = [1, 2, 3]; // Don't change this array literal declaration
+const casos = [ 1, 2, 3]; // Don't change this array literal declaration
+
+/*console.log(numbers[numbers.length-1])*/
 
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
-console.log(numbers);
-
-/* 
+  console.log(casos);
+  
+/*  
   EXPECTED RESULT
   ---------------
   [1, 2, 3, 4]
-*/
+  */
+ 
