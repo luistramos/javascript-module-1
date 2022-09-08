@@ -5,7 +5,7 @@ console.log("Estudiantes Grupo A: " + studentsA);
 console.log("EStudiantes Grupo B: " + studentsB);
 studentsTotal = studentsA.concat(studentsB);
 console.log("Lista desordenada: " + studentsTotal); // Lista desordenada
-console.log("Lista ordenda: " + studentsTotal.sort()); // Lista ordenada
+console.log("Lista ordenada: " + studentsTotal.sort()); // Lista ordenada
 
 function IsAStudent(nameStudent) { //Devuelve si existe un estudiante en clase
     if (studentsTotal.includes(nameStudent)) {
